@@ -1,3 +1,7 @@
-#include <string>
+#pragma once
+#include <vector>
 
-std::string prime();
+class Factorizer {
+public:
+    std::vector<int> prime(int n);
+};
